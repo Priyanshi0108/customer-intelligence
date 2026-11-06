@@ -1,0 +1,27 @@
+# Virtual environment
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# MLflow
+mlruns/
+
+# Data
+data/raw/*
+data/processed/*
+
+# Model artifacts
+artifacts/*
+logs/*
+
+# OS
+.DS_Store
+
+# Testing
+.pytest_cache/
+.ruff_cache/

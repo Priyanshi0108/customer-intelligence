@@ -1,0 +1,9 @@
+feature,importance
+monetary,0.18851956067258926
+total_quantity,0.17369258137649776
+customer_tenure_days,0.14311455284289765
+frequency,0.12154891698313698
+product_diversity,0.10977805435655154
+average_order_value,0.10012307821090684
+recency_days,0.08699077080628927
+avg_purchase_interval,0.07623248475113077

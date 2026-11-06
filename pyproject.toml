@@ -1,0 +1,39 @@
+[project]
+name = "customer-intelligence"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Priyanshi0108", email = "singhamanrajpoot2007@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "joblib>=1.6.0",
+    "matplotlib>=3.11.2",
+    "mlflow>=3.17.2",
+    "numpy>=2.5.4",
+    "openpyxl>=3.1.5",
+    "pandas>=3.1.0",
+    "plotly>=7.1.0",
+    "pyyaml>=6.0.3",
+    "scikit-learn>=1.9.1",
+    "scipy>=1.18.1",
+    "seaborn>=0.13.2",
+    "shap>=0.54.1",
+    "streamlit>=1.67.0",
+]
+
+[project.scripts]
+customer-intelligence = "customer_intelligence:main"
+
+[build-system]
+requires = ["uv_build>=0.8.17,<0.9.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.4.0",
+    "jupyter>=1.1.1",
+    "pytest>=9.2.0",
+    "ruff>=0.17.3",
+]

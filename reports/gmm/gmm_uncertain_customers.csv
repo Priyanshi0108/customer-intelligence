@@ -1,0 +1,4 @@
+CustomerID,recency_days,frequency,monetary,total_quantity,product_diversity,average_order_value,customer_tenure_days,avg_purchase_interval,cluster,assignment_confidence
+13493,276,2,618.63,380,6,309.315,11,11.0,1,0.5417612342686311
+15107,312,6,319.5,169,12,53.25,61,12.2,1,0.5682670607577115
+15473,15,7,1771.2,672,4,253.02857142857144,46,7.666666666666667,1,0.5628011647884503

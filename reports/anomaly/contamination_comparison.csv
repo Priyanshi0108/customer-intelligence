@@ -1,0 +1,4 @@
+contamination,anomaly_count,anomaly_percentage,mean_anomaly_score
+0.01,44,1.01,0.41755426065775797
+0.03,131,3.02,0.41755426065775797
+0.05,217,5.0,0.41755426065775797
